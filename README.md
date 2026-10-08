@@ -23,10 +23,7 @@ github/
 ├── src/rgcv/            Core library (retrieval, generator, corrector,
 │                        verifier, budget, LLM client, evaluation)
 ├── experiments/         Experiment drivers + analysis + plotting
-├── results/             Frozen summary JSONs for every paper experiment
-│                        + per-question logs of the two main configurations
 ├── data/                NOT included — download instructions (data/README.md)
-└── figures/             Output directory created by experiments/plot_all.py
 ```
 
 ## Setup
