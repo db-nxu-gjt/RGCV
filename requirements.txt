@@ -1,0 +1,8 @@
+openai>=1.30
+sqlglot>=23.0
+tiktoken>=0.7
+numpy>=1.26
+matplotlib>=3.7
+requests>=2.31
+psycopg2-binary>=2.9 ; platform_system != "Windows" or python_version < "3.13"
+pandas>=2.0

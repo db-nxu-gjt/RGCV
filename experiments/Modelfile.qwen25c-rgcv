@@ -1,0 +1,5 @@
+# E-H 强度曲线第 5 点(qwen2.5-coder:7b)专用模型包装:
+# 默认 num_ctx=2048 会截断 schema prompt,提升到 8192。
+# 创建: ollama create qwen25c-rgcv -f Modelfile.qwen25c-rgcv
+FROM qwen2.5-coder:7b
+PARAMETER num_ctx 8192
